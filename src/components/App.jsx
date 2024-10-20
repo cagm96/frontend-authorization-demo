@@ -6,7 +6,7 @@ import {
   useNavigate,
   useLocation,
 } from "react-router-dom";
-
+// it worked
 import AppContext from "../contexts/AppContext";
 import Ducks from "./Ducks";
 import Login from "./Login";
