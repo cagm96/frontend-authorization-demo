@@ -12,7 +12,7 @@ import Ducks from "./Ducks";
 import Login from "./Login";
 import MyProfile from "./MyProfile";
 import Register from "./Register";
-import ProtectedRoute from "./ProtectedRoute";
+import ProtectedRoute from "../contexts/AppContext";
 import * as auth from "../utils/auth";
 import * as api from "../utils/api";
 import { setToken, getToken } from "../utils/token";
